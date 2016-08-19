@@ -33,6 +33,7 @@ LibraryService libraryService;
 public String displayWelcomePage(){
 	return "welcome";
 }
+//commented here
 	@RequestMapping({"/home"})
 	public String displayHomePage(){
 		return "home";
